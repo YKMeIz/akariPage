@@ -1,7 +1,7 @@
 const getStart = '''
 <h5 class="title">Getting Started</h5>
 <p><strong>Download and install source</strong></p>
-<pre><code>\$ go get github.com/nrechn/akari</code></pre>
+<pre><code>\$ go get github.com/YKMeIz/akari</code></pre>
 <p><strong>Create a user</strong></p>
 <blockquote>
   <p><em>Assume you have installed SQLite in your host system.</em></p>
@@ -11,7 +11,7 @@ const getStart = '''
 
 import (
 	"fmt"
-	"github.com/nrechn/akari"
+	"github.com/YKMeIz/akari"
 )
 
 func main() {
@@ -38,7 +38,7 @@ Akari's token is: f6283b29169cf8c1e84bf23cf86772fb</code></pre>
 
 import (
 	"fmt"
-	"github.com/nrechn/akari"
+	"github.com/YKMeIz/akari"
 )
 
 func main() {

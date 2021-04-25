@@ -1,18 +1,15 @@
-name: 'akariPage'
-version: 0.0.1
-description: An absolute bare-bones web app.
-#author: nrechn <email@example.com>
-#homepage: https://www.example.com
+name: akariPage
+description: website for akari
+# version: 1.0.0
+#homepage: https://github.com/YKMeIz/akariPage
 
 environment:
-  sdk: '>=1.0.0 <2.0.0'
+  sdk: '>=2.10.0 <3.0.0'
 
 #dependencies:
-#  my_dependency: any
+#  path: ^1.7.0
 
 dev_dependencies:
-  browser: '>=0.10.0 <0.11.0'
-  dart_to_js_script_rewriter: '^1.0.1'
-
-transformers:
-- dart_to_js_script_rewriter
+  build_runner: ^1.10.0
+  build_web_compilers: ^2.11.0
+  pedantic: ^1.9.0

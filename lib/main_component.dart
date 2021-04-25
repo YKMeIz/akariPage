@@ -68,7 +68,7 @@ void getStartPage() {
   var musubi = querySelector('#musubi');
   returnHome.onClick.listen((e) => initPage());
   musubi.onClick
-      .listen((e) => window.open("https://github.com/nrechn/musubi", "_blank"));
+      .listen((e) => window.open("https://github.com/YKMeIz/musubi", "_blank"));
 }
 
 void MIAPage() {
